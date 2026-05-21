@@ -3,28 +3,20 @@ import './AboutUs.css';
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div className="about-us-container">
       <h1>About Paradise Nursery</h1>
-      <div className="about-content">
-        <p>
-          Founded in 2020, Paradise Nursery has been bringing joy and greenery 
-          to homes across the country. We believe that every home deserves a 
-          touch of nature.
-        </p>
-        <p>
-          Our mission is to provide high-quality, healthy houseplants that 
-          thrive in indoor environments. We carefully select each plant from 
-          sustainable growers who share our commitment to quality and 
-          environmental responsibility.
-        </p>
-        <h2>Why Choose Us?</h2>
-        <ul>
-          <li>✓ Expertly curated plant collection</li>
-          <li>✓ Fast, secure shipping</li>
-          <li>✓ Plant care guides and support</li>
-          <li>✓ 30-day health guarantee</li>
-        </ul>
-      </div>
+      <p>
+        Paradise Nursery is a plant shop dedicated to helping people bring life,
+        color, and calm into their homes through carefully selected indoor plants.
+        We offer a wide variety of houseplants that suit beginners, collectors,
+        and anyone who wants to create a greener living space.
+      </p>
+      <p>
+        Our mission is to provide healthy, beautiful plants along with a smooth
+        shopping experience and helpful plant care guidance. From air-purifying
+        favorites to tropical statement plants, our services are designed to make
+        plant shopping simple, enjoyable, and accessible for every customer.
+      </p>
     </div>
   );
 };
